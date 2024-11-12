@@ -5,4 +5,4 @@ const config = {
   },
 };
 
-modules.exports = config;
+module.exports = config;
