@@ -1,24 +1,45 @@
 import Image from "next/image";
 import Link from "next/link";
 import house from "public/crayon-house.png";
+import mail from "public/crayon-mail-icon.png";
+import instagram from "public/crayon-instagram-icon.png";
+import linkedin from "public/crayon-linkedin-icon.png";
+import person from "public/crayon-stick-figure.png";
 
 export default function Home() {
   return (
-    <div className="bg-paper h-screen w-screen bg-cover bg-center relative p-2">
-      <div className="flex justify-between items-center">
-        <div className="bg-cloud bg-contain bg-no-repeat text-2xl pr-24 pl-24 pb-10 pt-6">
-          <Link href="/about">About</Link>
+    <div className="">
+
+      <div className="flex flex-col items-center pt-24">
+        <div className="flex justify-center">
+          <a href="http://instagram.com/" className="p-10 flex flex-col items-center">
+            <Image src={instagram} alt="instagram" className="w-40 h-auto" />
+            <span className="mt-2">Instagram</span>
+          </a>
+          <a href="http://gmail.com" className="p-10 flex flex-col items-center">
+            <Image src={mail} alt="gmail" className="w-44 h-auto" />
+            <span className="mt-2">Email</span>
+          </a>
+          <a href="http://linkedin.com" className="p-10 flex flex-col items-center">
+            <Image src={linkedin} alt="linkedin" className="w-40 h-auto" />
+            <span className="mt-2">LinkedIn</span>
+          </a>
         </div>
-        <div className="bg-cloud bg-contain bg-no-repeat text-2xl pr-24 pl-24 pb-10 pt-6">
-          <Link href="/projects">Projects</Link>
+      </div>
+
+      
+      <div className="relative pl-96 pt-20">
+        <div className="absolute transform translate-x-12 -translate-y-12 bg-bubble bg-contain bg-no-repeat w-48 h-24 flex items-center justify-center">
+          <span className="pb-8">SAY HI</span>
         </div>
-        <div className="bg-cloud bg-contain bg-no-repeat text-2xl pr-24 pl-24 pb-10 pt-6">
-          <Link href="/contact">Contact</Link>
+
+        <div>
+          <Image src={person} alt="stick figure" className="w-16 h-auto" />
         </div>
       </div>
    
-      <div className="absolute bottom-10 right-10 text-center">
-        <a href="/"><Image src={house} alt="home page" className="w-80 h-auto" /></a>
+      <div className="absolute bottom-5 right-10 text-center">
+        <a href="/"><Image src={house} alt="home page" className="w-60 h-auto"/></a>
         <span className="text-1xl">HOME</span>
       </div>
     </div>

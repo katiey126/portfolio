@@ -17,6 +17,7 @@ const config: Config = {
       backgroundImage: {
         'paper': "url('/paper-textured-background.jpg')",
         'cloud': "url('/cloud2.png')",
+        'bubble': "url('/crayon-speech-bubble.png')",
       },
       fontSize: {
         biggerrr: ['10rem', { lineHeight: '1' }],
