@@ -10,25 +10,25 @@ export default function Home() {
   return (
     <div className="">
 
-      <div className="flex flex-col items-center pt-24">
+      <div className="flex flex-col items-center pt-24 pb-14 text-2xl">
         <div className="flex justify-center">
           <a href="http://instagram.com/" className="p-10 flex flex-col items-center">
-            <Image src={instagram} alt="instagram" className="w-40 h-auto" />
+            <Image src={instagram} alt="instagram" className="w-48 h-auto" />
             <span className="mt-2">Instagram</span>
           </a>
-          <a href="http://gmail.com" className="p-10 flex flex-col items-center">
-            <Image src={mail} alt="gmail" className="w-44 h-auto" />
-            <span className="mt-2">Email</span>
+          <a href="http://gmail.com" className="p-10 flex pl-24 pr-24 flex-col items-center">
+            <Image src={mail} alt="gmail" className="w-52 h-auto" />
+            <span className="mt-6">Email</span>
           </a>
           <a href="http://linkedin.com" className="p-10 flex flex-col items-center">
-            <Image src={linkedin} alt="linkedin" className="w-40 h-auto" />
+            <Image src={linkedin} alt="linkedin" className="w-48 h-auto" />
             <span className="mt-2">LinkedIn</span>
           </a>
         </div>
       </div>
 
       
-      <div className="relative pl-96 pt-20">
+      <div className="relative pl-96 text-xl">
         <div className="absolute transform translate-x-12 -translate-y-12 bg-bubble bg-contain bg-no-repeat w-48 h-24 flex items-center justify-center">
           <span className="pb-8">SAY HI</span>
         </div>

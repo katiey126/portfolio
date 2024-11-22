@@ -13,14 +13,14 @@ export default function Home() {
           <p className="pr-64 text-2xl tracking-wide leading-6">creative design and user experience</p>
       </div>
       
-      <div className="absolute pl-96 bottom-0">
+      <div className="absolute pl-96 bottom-0 pb-5">
         <div className="absolute transform translate-x-12 -translate-y-12 bg-bubble bg-contain bg-no-repeat w-9/12 h-24 flex items-center justify-center">
-          <span className="text-2xl"><a href="/projects">SEE MY PROJECTS</a></span>
+          <span className="text-xl"><a href="/projects">SEE MY PROJECTS</a></span>
         </div>
           <Image src={person} alt="stick figure" className="w-16 h-auto" />
       </div>
 
-      <div className="absolute  bottom-0 right-10">
+      <div className="absolute  bottom-0 pb-5 right-10">
         <Image src={house} alt="House." className="w-96 h-auto"/>
       </div>
     </div>

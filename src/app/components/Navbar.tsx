@@ -4,7 +4,7 @@ import cloud1 from "public/cloud1.png";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between items-center">
+    <div className="flex justify-between items-center text-blue-700">
       <div className="bg-cloud bg-contain bg-no-repeat text-2xl pr-24 pl-24 pb-10 pt-6">
         <Link href="/about">About</Link>
       </div>
