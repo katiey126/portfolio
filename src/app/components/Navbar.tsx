@@ -1,25 +1,30 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import cloud1 from "public/cloud1.png";
+import cloud2 from "public/cloud2.png";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between items-center text-blue-700">
-      <div className="bg-cloud bg-contain bg-no-repeat text-2xl pr-24 pl-24 pb-10 pt-6">
-        <Link href="/about">About</Link>
-      </div>
+    <div className="relative flex justify-between items-center text-blue-700 text-3xl">
+      
+      <a href="/about" className="relative flex justify-center items-center">
+        <Image src={cloud2} alt="cloud" className="w-60 h-auto"/>
+        <span className="absolute text-center">ABOUT</span>
+      </a>
 
       <Image src={cloud1} alt="small cloud" className="w-2/12 h-auto" />
 
-      <div className="bg-cloud bg-contain bg-no-repeat text-2xl pr-24 pl-24 pb-10 pt-6">
-        <Link href="/projects">Projects</Link>
-      </div>
+      <a href="/projects" className="relative flex justify-center items-center">
+        <Image src={cloud2} alt="cloud" className="w-60 h-auto"/>
+        <span className="absolute text-center">PROJECTS</span>
+      </a>
 
       <Image src={cloud1} alt="small cloud" className="w-2/12 h-auto" />
 
-      <div className="bg-cloud bg-contain bg-no-repeat text-2xl pr-24 pl-24 pb-10 pt-6">
-        <Link href="/contact">Contact</Link>
-      </div>
+      <a href="/contact" className="relative flex justify-center items-center">
+        <Image src={cloud2} alt="cloud" className="w-60 h-auto"/>
+        <span className="absolute text-center">CONTACT</span>
+      </a>
     </div>
   );
 };

@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import house from "public/crayon-house.png";
 import person from "public/crayon-stick-figure.png";
+import bubble from "public/crayon-speech-bubble.png";
 
 export default function Home() {
   return (
@@ -9,19 +10,22 @@ export default function Home() {
      
       <div className="absolute text-center text-red-700 w-full pt-32">
         <span className="text-biggerrr tracking-widerrr">KATIE YANG</span>
-          <p className="pr-80 text-2xl tracking-wide leading-6">Web developer with a passion for</p>
-          <p className="pr-64 text-2xl tracking-wide leading-6">creative design and user experience</p>
+          <p className="pr-80 text-2xl tracking-wide leading-10">Web developer with a passion for</p>
+          <p className="pr-64 text-2xl tracking-wide leading-10">creative design and user experience</p>
       </div>
       
       <div className="absolute pl-96 bottom-0 pb-5">
-        <div className="absolute transform translate-x-12 -translate-y-12 bg-bubble bg-contain bg-no-repeat w-9/12 h-24 flex items-center justify-center">
-          <span className="text-xl"><a href="/projects">SEE MY PROJECTS</a></span>
+        <div className="absolute transform translate-x-12 -translate-y-12 w-9/12 h-24 flex items-center justify-center">
+          <a href="/projects" className="relative flex justify-center items-center w-full">
+            <Image src={bubble} alt="speech bubble" className="w-96 h-auto"/>
+            <span className="absolute text-xl text-center w-full">SEE MY PROJECTS</span>
+          </a>
         </div>
           <Image src={person} alt="stick figure" className="w-16 h-auto" />
       </div>
 
       <div className="absolute  bottom-0 pb-5 right-10">
-        <Image src={house} alt="House." className="w-96 h-auto"/>
+        <Image src={house} alt="House" className="w-96 h-auto"/>
       </div>
     </div>
   );
