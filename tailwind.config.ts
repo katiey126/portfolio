@@ -9,10 +9,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      /* Put custom values / themes / classes here */
       fontFamily: {
         sans: ["var(--font-inter)", ...fontFamily.sans],
-        cabinSketch: ["var(--font-cabin-sketch)"],
+        coloredCrayons: ['ColoredCrayons', 'sans-serif'],
+        crayonWorks: ['CrayonWorks', 'sans-serif'],
       },
       backgroundImage: {
         'paper': "url('/paper-textured-background.jpg')",

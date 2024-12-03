@@ -5,11 +5,11 @@ import mail from "public/crayon-mail-icon.png";
 import instagram from "public/crayon-instagram-icon.png";
 import linkedin from "public/crayon-linkedin-icon.png";
 import person from "public/crayon-stick-figure.png";
+import bubble from "public/crayon-speech-bubble.png";
 
 export default function Home() {
   return (
     <div className="">
-
       <div className="flex flex-col items-center pt-24 pb-14 text-2xl">
         <div className="flex justify-center">
           <a href="http://instagram.com/" className="p-10 flex flex-col items-center">
@@ -26,21 +26,23 @@ export default function Home() {
           </a>
         </div>
       </div>
-
       
       <div className="relative pl-96 text-xl">
-        <div className="absolute transform translate-x-12 -translate-y-12 bg-bubble bg-contain bg-no-repeat w-48 h-24 flex items-center justify-center">
-          <span className="pb-8">SAY HI</span>
+        <div className="absolute transform translate-x-12 -translate-y-12 w-48 h-24 flex items-center justify-center">
+          <Image src={bubble} alt="speech bubble" className="absolute w-full h-full object-contain pr-4"/>
+          <span className="relative text-center">SAY HI</span>
         </div>
 
         <div>
-          <Image src={person} alt="stick figure" className="w-16 h-auto" />
+          <Image src={person} alt="stick figure" className="w-16 h-auto"/>
         </div>
       </div>
    
-      <div className="absolute bottom-5 right-10 text-center">
-        <a href="/"><Image src={house} alt="home page" className="w-60 h-auto"/></a>
-        <span className="text-1xl">HOME</span>
+      <div className="absolute bottom-2 right-10 text-center">
+        <a href="/">
+          <Image src={house} alt="home page" className="w-60 h-auto"/>
+          <span className="text-1xl">HOME</span>
+        </a>
       </div>
     </div>
   );
