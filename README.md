@@ -1,4 +1,5 @@
 Name: Katie Yang
+
 Responsive page: about page
 
 I had the most trouble with the projects page since I had to figure out how to position
