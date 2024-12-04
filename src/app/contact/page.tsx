@@ -39,10 +39,10 @@ export default function Home() {
       </div>
    
       <div className="absolute bottom-2 right-10 text-center">
-        <a href="/">
+        <Link href="/">
           <Image src={house} alt="home page" className="w-60 h-auto"/>
           <span className="text-1xl">HOME</span>
-        </a>
+        </Link>
       </div>
     </div>
   );
