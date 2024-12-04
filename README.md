@@ -1,3 +1,14 @@
-Write-up:
+Name: Katie Yang
+Responsive page: about page
 
-The website is intended to be used as a personal portfolio for any programming and design work I've done. Currently I've implemented the home and contact pages. After the design phase, I changed some font choices as can be seen on the labels in the contact page. In the projects and about pages which I haven't implemented yet I'm also planning on changing the font used for captions/paragraphs and adding some elements to make better use of white space. The hardest part so far was just figuring out how to position all the elements relative to one another to create the layout I wanted, especially with the clouds in the nav bar. I'm planning on changing the sizing, rotations, and spacing of the clouds in the future so the nav bar design feels less static and more consistent with the theme, but it has a more simplistic design right now for the sake of implementation.
+I had the most trouble with the projects page since I had to figure out how to position
+images inside the frames and with things having different aspect ratios, but it eventually
+worked out as I had intended. I also changed the format of the about page just because I 
+realized I didn't want to use a photo.
+
+Some changes I would like to make in the future:
+- Adding a customized hand drawn cursor
+- Adding more projects to the project page and turning them into a carousel
+- Using a crumple/unfolding transitions when moving between pages
+- More movement and interactive elements (shifting positions of non nav bar clouds, stick figure moving when clicked, 
+smoke coming out of house chimney, maybe adding a photo to the about page that can be drawn on, etc.)

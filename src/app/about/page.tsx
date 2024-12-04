@@ -11,7 +11,7 @@ export default function Home() {
         <div className="relative text-xl">
           <div className="absolute transform translate-x-12 -translate-y-12 w-48 h-24 flex items-center justify-center">
             <Image src={bubble} alt="speech bubble" className="absolute w-full h-full object-contain pr-4"/>
-            <span className="relative text-center">Hi I'm Katie</span>
+            <span className="relative text-center">Hi I&#39;m Katie</span>
           </div>
 
           <div>
@@ -20,7 +20,7 @@ export default function Home() {
         </div>
 
         <span className="font-crayonWorks mx-72">
-          I'm a developer and web designer currently studying computer science
+          I&#39;m a developer and web designer currently studying computer science
           at the University of Maryland. Aside from web dev I also do some environmental
           machine learning research.
           <br></br><br></br>
