@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import house from "public/crayon-house.png";
 import mail from "public/crayon-mail-icon.png";
 import instagram from "public/crayon-instagram-icon.png";
 import linkedin from "public/crayon-linkedin-icon.png";
@@ -12,18 +11,18 @@ export default function Home() {
     <div className="">
       <div className="flex flex-col items-center pt-24 pb-14 text-2xl">
         <div className="flex justify-center">
-          <a href="http://instagram.com/" className="p-10 flex flex-col items-center">
+          <Link href="http://instagram.com/" className="p-10 flex flex-col items-center">
             <Image src={instagram} alt="instagram" className="w-48 h-auto" />
             <span className="mt-2">Instagram</span>
-          </a>
-          <a href="http://gmail.com" className="p-10 flex pl-24 pr-24 flex-col items-center">
+          </Link>
+          <Link href="mailto:katie.yang1818@gmail.com" className="p-10 flex pl-24 pr-24 flex-col items-center">
             <Image src={mail} alt="gmail" className="w-52 h-auto" />
             <span className="mt-6">Email</span>
-          </a>
-          <a href="http://linkedin.com" className="p-10 flex flex-col items-center">
+          </Link>
+          <Link href="https://www.linkedin.com/in/katie-cy/" className="p-10 flex flex-col items-center">
             <Image src={linkedin} alt="linkedin" className="w-48 h-auto" />
             <span className="mt-2">LinkedIn</span>
-          </a>
+          </Link>
         </div>
       </div>
       
@@ -36,13 +35,6 @@ export default function Home() {
         <div>
           <Image src={person} alt="stick figure" className="w-16 h-auto"/>
         </div>
-      </div>
-   
-      <div className="absolute bottom-2 right-10 text-center">
-        <Link href="/">
-          <Image src={house} alt="home page" className="w-60 h-auto"/>
-          <span className="text-1xl">HOME</span>
-        </Link>
       </div>
     </div>
   );

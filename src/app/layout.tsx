@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { inter } from "@/utils/fonts";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Homebutton";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -17,8 +18,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.variable} antialiased`}>
       <div className="bg-paper bg-cover min-h-screen flex flex-col">
-          <Navbar />
+          <Navbar/>
           <main className="flex-1">{children}</main>
+          <Footer/>
         </div>
       </body>
     </html>

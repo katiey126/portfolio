@@ -12,14 +12,14 @@ const Navbar = () => {
         <span className="absolute text-center">ABOUT</span>
       </Link>
 
-      <Image src={cloud1} alt="small cloud" className="w-2/12 h-auto" />
+      <Image src={cloud1} alt="small cloud" className="w-2/12 h-auto max-sm:hidden" />
 
       <Link href="/projects" className="relative flex justify-center items-center">
         <Image src={cloud2} alt="cloud" className="w-60 h-auto"/>
         <span className="absolute text-center">PROJECTS</span>
       </Link>
 
-      <Image src={cloud1} alt="small cloud" className="w-2/12 h-auto" />
+      <Image src={cloud1} alt="small cloud" className="w-2/12 h-auto max-sm:hidden" />
 
       <Link href="/contact" className="relative flex justify-center items-center">
         <Image src={cloud2} alt="cloud" className="w-60 h-auto"/>
