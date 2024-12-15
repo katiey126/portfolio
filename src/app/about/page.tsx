@@ -5,11 +5,11 @@ import bubble from "public/crayon-speech-bubble.png";
 
 export default function Home() {
   return (
-    <div className="relative min-h-screen flex items-center flex-col justify-between px-4 sm:px-6 md:px-10 lg:px-20">
-      <div className="flex flex-col items-center text-2xl lg:text-4xl mt-14">
+    <div className="relative flex items-center flex-col px-9 sm:px-12 md:px-14 lg:px-36">
+      <div className="flex flex-col items-center text-2xl sm:text-3xl lg:text-4xl mt-14">
 
-        <div className="relative text-lg lg:text-xl transform translate-y-4 sm:translate-y-7">
-          <div className="absolute transform translate-x-8 sm:translate-x-6 md:translate-x-16 -translate-y-4 sm:-translate-y-6 md:-translate-y-12 w-32 md:w-48 h-12 h-16 md:h-24 flex items-center justify-center">
+        <div className="relative text-lg lg:text-xl transform translate-y-5 sm:translate-y-7">
+          <div className="absolute transform translate-x-8 sm:translate-x-16 -translate-y-8 sm:-translate-y-12 w-32 sm:w-48 h-16 md:h-24 flex items-center justify-center">
             <Image
               src={bubble}
               alt="speech bubble"
@@ -23,11 +23,11 @@ export default function Home() {
           </div>
         </div>
 
-        <span className="font-crayonWorks text-center max-w-sm sm:max-w-6xl leading-relaxed">
+        <span className="font-crayonWorks text-center leading-relaxed">
           I&#39;m a developer and web designer currently studying computer science
           at the University of Maryland. Aside from web dev I also do some environmental
           machine learning research.
-          I also love{" "}
+          I love{" "}
           <Link
             href="https://www.goodreads.com/user/show/148292068-katie"
             target="_blank"
