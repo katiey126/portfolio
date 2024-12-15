@@ -12,7 +12,7 @@ export default function Home() {
           <span className="-translate-y-4">KATIE </span>
           <span className="translate-y-4">YANG</span>
         </div>
-        <div className="text-lg md:text-2xl pt-4 tracking-wide justify-center transform">
+        <div className="text-lg md:text-2xl tracking-wide justify-center transform">
           <p className="md:-translate-x-64">Web developer with a passion for</p>
           <p className="md:-translate-x-40">creative design and user experience</p>
         </div>
