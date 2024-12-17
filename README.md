@@ -1,13 +1,6 @@
-Name: Katie Yang
+My personal website
 
-Responsive page: about page
-
-I had the most trouble with the projects page since the frame I wanted to use wasn't
-perfectly rectangular and the lines were a bit too thick, so it was hard to make the image fit smoothly inside it. 
-I ended up changing the design to have just the images without the frames.
-I also changed the format of the about page to be just text since I realized I didn't want to use a photo.
-
-Some changes I would like to make in the future:
+future changes:
 - Adding a customized hand drawn cursor
 - Adding more projects to the project page and turning them into a carousel
 - Drawing a more suitable frame to use for the projects
