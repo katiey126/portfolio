@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'ColoredCrayons';
+  src: url('/ColoredCrayons-7wPR.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CrayonWorks';
+  src: url('/CrayonWorks.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+  
+body {
+  font-family: 'ColoredCrayons', sans-serif;
+}
