@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import project1 from "public/project1.png";
 import project2 from "public/project2.png";
 import person from "public/crayon-stick-figure.png";
